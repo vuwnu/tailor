@@ -1,0 +1,1 @@
+:root{--color-text: black;--color-background: white;--font-primary: "Arial";--font-headings: "Arial"}html{background:var(--color-background)}body{color:var(--color-text);background:var(--color-background)}
