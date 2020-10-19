@@ -1,4 +1,8 @@
 // Tailor, classless CSS from Vuwnu
 
 @import "variables";
-@import "elements";
+
+// ELEMENTS
+@import "elements/form";
+@import "elements/text";
+@import "elements/embedded";
