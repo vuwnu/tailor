@@ -17,4 +17,14 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   color: lightblue;
+
+  &:hover {
+    filter:brightness(150%);
+  }
+}
+
+blockquote {
+  border-left: 5px solid;
+  padding-left: 10px;
+  margin-left: 30px;
 }
