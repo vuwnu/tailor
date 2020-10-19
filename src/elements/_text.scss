@@ -1,15 +1,16 @@
 html {
-  background: var(--color-background);
+  background: $color-background;
 }
 
 body {
-  color: var(--color-text);
-  background: var(--color-background);
+  color: $color-text;
+  background: $color-background;
 
   margin: auto;
-  max-width: var(--page-width);
-  font-family: var(--font-primary);
+  max-width: $page-width;
+  font-family: $font-primary;
 
+  // Style main parts of page
   > header {
     text-align: center;
     padding: 20px;
@@ -22,14 +23,14 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-headings);
+  font-family: $font-headings;
 }
 
 a {
   color: lightblue;
 
   &:hover {
-    filter:brightness(150%);
+    color: $color-text;
   }
 }
 

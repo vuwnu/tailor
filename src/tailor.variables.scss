@@ -1,6 +1,7 @@
 // Tailor, classless CSS from Vuwnu
 
-@import 'theme/default';
+@import 'theme/custom';
+@import "variables";
 
 // ELEMENTS
 @import "elements/form";
