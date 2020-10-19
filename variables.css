@@ -1,0 +1,9 @@
+:root {
+  --color-text: black;
+  --color-background: white;
+
+  --font-primary: 'Arial';
+  --font-headings: 'Arial';
+
+  --page-width: 60ch;
+}
