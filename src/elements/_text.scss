@@ -9,6 +9,16 @@ body {
   margin: auto;
   max-width: var(--page-width);
   font-family: var(--font-primary);
+
+  > header {
+    text-align: center;
+    padding: 20px;
+  }
+
+  > footer {
+    text-align: center;
+    padding: 20px;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
