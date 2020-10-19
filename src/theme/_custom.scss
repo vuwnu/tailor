@@ -1,3 +1,16 @@
+:root {
+  // Colors
+  --color-text: black;
+  --color-background: white;
+
+  // Fonts
+  --font-primary: 'Arial';
+  --font-headings: 'Arial';
+
+  // Sizes
+  --page-width: 60ch;
+}
+
 // Colors
 $color-text: var(--color-text);
 $color-background: var(--color-background);
