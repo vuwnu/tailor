@@ -29,12 +29,12 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   color: lightblue;
-
+  text-decoration: none;
+  
   &:hover {
     color: $color-text;
   }
 }
-
 
 blockquote {
   border-left: 5px solid;
