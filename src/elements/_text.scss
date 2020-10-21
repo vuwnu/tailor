@@ -21,6 +21,19 @@ body {
     text-align: center;
     padding: 20px;
   }
+
+  > nav {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+
+    > a {
+      flex: 1 1 auto;
+      border: 1px solid;
+      padding: 5px;
+      margin: 5px;
+    }
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -30,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: lightblue;
   text-decoration: none;
-  
+
   &:hover {
     color: $color-text;
   }
