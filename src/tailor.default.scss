@@ -1,0 +1,20 @@
+// Tailor, classless CSS from Vuwnu
+
+// THEME
+
+// Colors
+$color-text: black;
+$color-background: white;
+
+// Fonts
+$font-primary: 'Arial';
+$font-headings: 'Arial';
+
+// Sizes
+$page-width: 60ch;
+
+
+// ELEMENTS
+@import "elements/form";
+@import "elements/text";
+@import "elements/embedded";
